@@ -1,0 +1,20 @@
+{
+  "name": "rollout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "debug": "^2.6.8",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "fs-extra": "^3.0.1",
+    "immutable": "^3.8.1",
+    "morgan": "^1.8.2",
+    "ramda": "^0.24.1"
+  }
+}

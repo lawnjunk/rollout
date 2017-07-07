@@ -5,7 +5,7 @@ const jsonParser = require('body-parser').json()
 const execTasks = require('../lib/exec-tasks.js')
 const hookRouter = require('../lib/hook-router.js')
 
-let TASK_DIR = `${__dirname}/../task`
+const TASK_DIR = process.env.ROLLOUT_TASK_DIR
 
 fs.readdir(TASK_DIR)
 .then(repos => 
